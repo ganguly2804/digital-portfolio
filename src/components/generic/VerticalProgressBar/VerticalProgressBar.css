@@ -1,0 +1,22 @@
+.Vertical-progress-bar-parent {
+    height: 100%;
+    width: 100%;
+    background-color: var(--bgcolor);
+    display: flex;
+    align-items: flex-end;
+}
+
+.Vertical-progress-bar-child {
+    height: var(--progress);
+    width: 100%;
+    background-color: var(--barcolor);
+    display: flex;
+    justify-content: center;
+}
+
+.Vertical-progress-bar-text {
+    padding: 10;
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+}
