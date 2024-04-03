@@ -7,7 +7,6 @@
 }
 
 .Resume-column-left {
-    flex-basis: 66.6667%;
     max-width: 66.6667%;
 }
 
@@ -21,25 +20,26 @@
     box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 3px -2px, rgba(0, 0, 0, 0.04) 0px 3px 4px 0px, rgba(0, 0, 0, 0.04) 0px 1px 8px 0px !important;
 }
 
+.Resume-card {
+    margin: 0 0 24px 24px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 3px -2px, rgba(0, 0, 0, 0.04) 0px 3px 4px 0px, rgba(0, 0, 0, 0.04) 0px 1px 8px 0px !important;
+}
+
+
+/* 
 .Column-left-cards-container {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.Column-left-card {
-    margin: 0 0 24px 24px;
-    display: flex;
-}
-
-.Column-left-card-domains {
-    max-width: 41.6667%;
-    flex-basis: 41.6667%;
-}
-
-.Column-left-card-technology {
+#Column-left-card-3 {
     flex-basis: 58.3333%;
     -webkit-box-flex: 0;
     flex-grow: 0;
     max-width: 58.3333%;
 }
+
+#Column-left-card-4 {} */

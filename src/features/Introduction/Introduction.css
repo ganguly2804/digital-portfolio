@@ -1,6 +1,5 @@
 .Welcome-container {
     background-color: var(--blue-shade);
-    border-radius: 8px;
     padding: 32px;
     display: flex;
     width: 100%;

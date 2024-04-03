@@ -1,8 +1,8 @@
 import React from "react";
-import "./Technology.css";
-import VerticalProgressBar from "../generic/VerticalProgressBar/VerticalProgressBar"
+import "./Experience.css";
+import VerticalProgressBar from "../../components/VerticalProgressBar/VerticalProgressBar"
 
-const TechnologyCard = () => {
+const ExperienceCard = () => {
 
     const technologyCardTitle = "Technology";
     const technologyCardContent = {
@@ -26,16 +26,16 @@ const TechnologyCard = () => {
 
 
     return (
-        <div className="TechnologyCard-container">
-            <div className="TechnologyCard-title">{ technologyCardTitle }</div>
-            <div className="TechnologyCard-content">
+        <div className="ExperienceCard-container">
+            <div className="ExperienceCard-title">{ technologyCardTitle }</div>
+            <div className="ExperienceCard-content">
                 {
                     Object.entries(technologyCardContent).map(([key, value], index) => (
-                        <div className="TechnologyCard-col" key={key}>
-                            <div className="TechnologyCard-bar">
+                        <div className="ExperienceCard-col" key={key}>
+                            <div className="ExperienceCard-bar">
                                 <VerticalProgressBar barcolor={barColorArr[index%2]} bgcolor={bgColorArr[index%2]} progress={value} />
                             </div>
-                            <div className="TechnologyCard-text">
+                            <div className="ExperienceCard-text">
                                 {key}
                             </div>
                         </div>
@@ -47,4 +47,4 @@ const TechnologyCard = () => {
     )
 }
 
-export default TechnologyCard;
+export default ExperienceCard;

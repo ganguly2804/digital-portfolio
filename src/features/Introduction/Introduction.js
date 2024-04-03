@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Welcome.css";
-import {ReactComponent as Designer} from "../../images/designer.svg";
+import "./Introduction.css";
+import {ReactComponent as Designer} from "../../assets/images/designer.svg";
 
 const Welcome = () => {
     return (

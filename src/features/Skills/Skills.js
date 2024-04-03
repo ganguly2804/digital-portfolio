@@ -1,6 +1,6 @@
 import React from "react";
-import "./Domains.css";
-import ProgressBar from "../generic/ProgressBar/ProgressBar";
+import "./Skills.css";
+import ProgressBar from "../../components/ProgressBar/ProgressBar";
 
 const DomainsCard = () => {
 
